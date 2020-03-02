@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
-    <link href="sstyle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -126,7 +126,6 @@ minusBtn[1].addEventListener("click", function() {
         inputBox[1].value = inputBox[1].value - 1;
         price[1].innerText = parseFloat(price[1].innerText) - 59;
         subTotal.innerText = parseFloat(subTotal.innerText) - 59;
-        tax.innerText = (parseFloat(subTotal.innerText) * 0.03).toFixed(2);
         total.innerText = parseFloat(total.innerText) - 59;
     }
 });
